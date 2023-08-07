@@ -9,7 +9,7 @@ import { getSelectCategory } from "../templates/modals.js";
 
 export const gallery = document.querySelector('.gallery');
 export const token = sessionStorage.accessToken;
-console.log(token);
+
 const edition = document.querySelector('.edition');
 const modifier = document.querySelectorAll('.modifier');
 const login = document.getElementById('login');
